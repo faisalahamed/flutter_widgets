@@ -6,6 +6,8 @@ import 'package:flutter_widets/4.align/my_align.dart';
 
 import '5.animated_align/my_animated_align.dart';
 import '6.animated_builder/my_animated_builder.dart';
+import '7.animated_container/my_animated_container.dart';
+import '8.animated_crossfade/my_animated_crossfade.dart';
 import 'home_page.dart';
 
 void main() {
@@ -31,7 +33,9 @@ class MyApp extends StatelessWidget {
         '/alertdialog': (context) => const MyAlertDialog(),
         '/align': (context) => const MyAlign(),
         '/animatedalign': (context) => const MyAnimatedAlign(),
-        // '/animatedbuilder': (context) => const MyAnimateBuilder(),
+        '/animatedbuilder': (context) => const MyAnimateBuilder(),
+        '/animatedcontainer': (context) => const MyAnimatedContainer(),
+        '/animatedcrossfade': (context) => const MyAnimatedCrossfade(),
       },
     );
   }

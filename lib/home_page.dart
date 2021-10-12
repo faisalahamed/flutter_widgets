@@ -31,8 +31,16 @@ class HomePage extends StatelessWidget {
             onPressed: () => Navigator.pushNamed(context, '/animatedalign'),
           ),
           ElevatedButton(
-            child: const Text('Animated Align'),
+            child: const Text('Animated Builder'),
             onPressed: () => Navigator.pushNamed(context, '/animatedbuilder'),
+          ),
+          ElevatedButton(
+            child: const Text('Animated Container'),
+            onPressed: () => Navigator.pushNamed(context, '/animatedcontainer'),
+          ),
+          ElevatedButton(
+            child: const Text('Animated crossfade'),
+            onPressed: () => Navigator.pushNamed(context, '/animatedcrossfade'),
           )
         ],
       ),
