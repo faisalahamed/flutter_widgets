@@ -4,10 +4,18 @@ import 'package:flutter_widets/2.expanded/my_expanded.dart';
 import 'package:flutter_widets/3.alert_dialog/my_alertdialog.dart';
 import 'package:flutter_widets/4.align/my_align.dart';
 
+import '10.animated_list/my_animated_list.dart';
+import '11.side_transition/my_side_transition.dart';
+import '12.animated_opacity/animated_opacity.dart';
+import '13.fade_transition/my_fade_transition.dart';
+
+import '14.animated_positioned/my_animated_positioned.dart';
+import '15.animated_size/animated_size.dart';
 import '5.animated_align/my_animated_align.dart';
 import '6.animated_builder/my_animated_builder.dart';
 import '7.animated_container/my_animated_container.dart';
 import '8.animated_crossfade/my_animated_crossfade.dart';
+import '9.animated_default_textstyle/my_animated_default_textstyle.dart';
 import 'home_page.dart';
 
 void main() {
@@ -36,6 +44,14 @@ class MyApp extends StatelessWidget {
         '/animatedbuilder': (context) => const MyAnimateBuilder(),
         '/animatedcontainer': (context) => const MyAnimatedContainer(),
         '/animatedcrossfade': (context) => const MyAnimatedCrossfade(),
+        '/animateddefaulttextstyle': (context) =>
+            const MyAnimatedDefaultTextStyle(),
+        '/animatedlist': (context) => const MyAnimatedList(),
+        '/sidetransition': (context) => const MySideTransition(),
+        '/animatedopacity': (context) => const MyAnimatedOpacity(),
+        '/fadetransition': (context) => const MyFadeTransition(),
+        '/animateposition': (context) => const MyAnimatedPositioned(),
+        '/animatedsize': (context) => const MyAnimatedSize(),
       },
     );
   }
