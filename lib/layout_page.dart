@@ -17,7 +17,7 @@ class MyLayout extends StatelessWidget {
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
         color: Colors.greenAccent[100],
-        child: body,
+        child: Center(child: body),
       ),
     );
   }

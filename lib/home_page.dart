@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
     return MyLayout(
       pageTitle: 'Home Oage',
       body: SingleChildScrollView(
-        child: Column(
+        child: Wrap(
           children: [
             ElevatedButton(
               child: const Text('Safe Area'),
@@ -73,6 +73,28 @@ class HomePage extends StatelessWidget {
             ElevatedButton(
               child: const Text('Animated size'),
               onPressed: () => Navigator.pushNamed(context, '/animatedsize'),
+            ),
+            ElevatedButton(
+              child: const Text('Nested Scroll view'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/nestedscrollview'),
+            ),
+            ElevatedButton(
+              child: const Text('Animated widget'),
+              onPressed: () => Navigator.pushNamed(context, '/animatedwidet'),
+            ),
+            ElevatedButton(
+              child: const Text('Aspect Ratio'),
+              onPressed: () => Navigator.pushNamed(context, '/aspectratio'),
+            ),
+            ElevatedButton(
+              child: const Text('Baseline'),
+              onPressed: () => Navigator.pushNamed(context, '/baseline'),
+            ),
+            ElevatedButton(
+              child: const Text('Bottom Navigation'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/botttomnavigation'),
             ),
           ],
         ),

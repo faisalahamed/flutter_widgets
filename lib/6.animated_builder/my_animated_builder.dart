@@ -20,6 +20,12 @@ class _MyAnimateBuildertate extends State<MyAnimateBuilder>
   )..repeat();
 
   @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return MyLayout(
       pageTitle: 'Safe Area',
