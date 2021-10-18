@@ -26,6 +26,14 @@ class _MyBottomNavigationState extends State<MyBottomNavigation> {
       'Index 3: Profile',
       style: _textStyle,
     ),
+    Text(
+      'Index 4: ee',
+      style: _textStyle,
+    ),
+    Text(
+      'Index 4: ee',
+      style: _textStyle,
+    ),
   ];
 
   @override
@@ -34,12 +42,20 @@ class _MyBottomNavigationState extends State<MyBottomNavigation> {
       pageTitle: 'BottomNavigtion',
       body: Scaffold(
         body: Center(
-          child: _list.elementAt(selectedIndex),
+          child: _list[selectedIndex],
         ),
         bottomNavigationBar: BottomNavigationBar(
+          type: BottomNavigationBarType.fixed,
+          backgroundColor: Colors.green,
+          selectedFontSize: 18,
+          selectedIconTheme: IconThemeData(size: 38),
           items: const <BottomNavigationBarItem>[
             BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.access_alarm), label: 'About'),
             BottomNavigationBarItem(icon: Icon(Icons.ac_unit), label: 'AC'),
+            BottomNavigationBarItem(
+                icon: Icon(Icons.account_balance), label: 'Sport'),
             BottomNavigationBarItem(
                 icon: Icon(Icons.business), label: 'Business'),
           ],

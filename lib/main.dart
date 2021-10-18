@@ -8,6 +8,13 @@ import 'package:flutter_widets/2.expanded/my_expanded.dart';
 import 'package:flutter_widets/20.auto_complete/my_auto_complete.dart';
 import 'package:flutter_widets/21.base_line/my_base_line.dart';
 import 'package:flutter_widets/22.bottom_navigation/my_bottom_navigation.dart';
+import 'package:flutter_widets/23.scrollable_bottom_navigartion/my_scrollable_bottom_navigartion.dart';
+import 'package:flutter_widets/24.bottom_sheet.dart/my_bottom_sheet.dart';
+import 'package:flutter_widets/25.checkbox/my_checkbox.dart';
+import 'package:flutter_widets/26.chip/my_chip.dart';
+import 'package:flutter_widets/27.circular_progress_indicator/my_circular_progress_indicator.dart';
+import 'package:flutter_widets/28.clipoval/my_clipoval.dart';
+import 'package:flutter_widets/29.clip_path/my_clip_path.dart';
 import 'package:flutter_widets/3.alert_dialog/my_alertdialog.dart';
 import 'package:flutter_widets/4.align/my_align.dart';
 
@@ -66,6 +73,13 @@ class MyApp extends StatelessWidget {
         '/autocomplete': (context) => const MyAutoComplete(),
         '/baseline': (context) => const MyBaseLine(),
         '/botttomnavigation': (context) => const MyBottomNavigation(),
+        '/scrollablebotttomnavigation': (context) => const MyScrollableBottomNavigation(),
+        '/bottomsheet': (context) => const MyBottomSheet(),
+        '/checkbox': (context) => const MyCheckbox(),
+        '/chip': (context) => const MyChip(),
+        '/circularprogressindicator': (context) => const MyCircularProgressIndicator(),
+        '/clipoval': (context) => const MyClipOval(),
+        '/clippath': (context) => const MyClipPath(),
       },
     );
   }

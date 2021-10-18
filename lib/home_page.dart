@@ -96,6 +96,38 @@ class HomePage extends StatelessWidget {
               onPressed: () =>
                   Navigator.pushNamed(context, '/botttomnavigation'),
             ),
+            ElevatedButton(
+              child: const Text('Scrollable Bottom Navigation'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/scrollablebotttomnavigation'),
+            ),
+            ElevatedButton(
+              child: const Text('Bottomsheet'),
+              onPressed: () => Navigator.pushNamed(context, '/bottomsheet'),
+            ),
+            ElevatedButton(
+              child: const Text('Check Box'),
+              onPressed: () => Navigator.pushNamed(context, '/checkbox'),
+            ),
+            ElevatedButton(
+              child: const Text('Chip'),
+              onPressed: () => Navigator.pushNamed(context, '/chip'),
+            ),
+            ElevatedButton(
+              child: const Text('Circular Progress Indicator'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/circularprogressindicator'),
+            ),
+            ElevatedButton(
+              child: const Text('clipoval'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/clipoval'),
+            ),
+            ElevatedButton(
+              child: const Text('clippath'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/clippath'),
+            ),
           ],
         ),
       ),
