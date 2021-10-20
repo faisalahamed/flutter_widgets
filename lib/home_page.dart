@@ -128,6 +128,21 @@ class HomePage extends StatelessWidget {
               onPressed: () =>
                   Navigator.pushNamed(context, '/clippath'),
             ),
+            ElevatedButton(
+              child: const Text('ClipRect'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/cliprect'),
+            ),
+            ElevatedButton(
+              child: const Text('ClipRRect'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/cliprrect'),
+            ),
+            ElevatedButton(
+              child: const Text('Constrain Box'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/constrainbox'),
+            ),
           ],
         ),
       ),

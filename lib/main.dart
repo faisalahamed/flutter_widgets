@@ -16,6 +16,9 @@ import 'package:flutter_widets/27.circular_progress_indicator/my_circular_progre
 import 'package:flutter_widets/28.clipoval/my_clipoval.dart';
 import 'package:flutter_widets/29.clip_path/my_clip_path.dart';
 import 'package:flutter_widets/3.alert_dialog/my_alertdialog.dart';
+import 'package:flutter_widets/30.clip_rect/my_cliprect.dart';
+import 'package:flutter_widets/31.clip_r_rect/my_clip_r_rect.dart';
+import 'package:flutter_widets/32.constrain_box/my_constrain_box.dart';
 import 'package:flutter_widets/4.align/my_align.dart';
 
 import '10.animated_list/my_animated_list.dart';
@@ -80,6 +83,9 @@ class MyApp extends StatelessWidget {
         '/circularprogressindicator': (context) => const MyCircularProgressIndicator(),
         '/clipoval': (context) => const MyClipOval(),
         '/clippath': (context) => const MyClipPath(),
+        '/cliprect': (context) => const MyClipRect(),
+        '/cliprrect': (context) => const MyClipRRect(),
+        '/constrainbox': (context) => const MyConstrainBox(),
       },
     );
   }
