@@ -19,6 +19,8 @@ import 'package:flutter_widets/3.alert_dialog/my_alertdialog.dart';
 import 'package:flutter_widets/30.clip_rect/my_cliprect.dart';
 import 'package:flutter_widets/31.clip_r_rect/my_clip_r_rect.dart';
 import 'package:flutter_widets/32.constrain_box/my_constrain_box.dart';
+import 'package:flutter_widets/33.sliver_and_custom_scrollview/my_customscroll_view.dart';
+import 'package:flutter_widets/34.decorated_box_transition/my_decorated_box_transition.dart';
 import 'package:flutter_widets/4.align/my_align.dart';
 
 import '10.animated_list/my_animated_list.dart';
@@ -76,16 +78,20 @@ class MyApp extends StatelessWidget {
         '/autocomplete': (context) => const MyAutoComplete(),
         '/baseline': (context) => const MyBaseLine(),
         '/botttomnavigation': (context) => const MyBottomNavigation(),
-        '/scrollablebotttomnavigation': (context) => const MyScrollableBottomNavigation(),
+        '/scrollablebotttomnavigation': (context) =>
+            const MyScrollableBottomNavigation(),
         '/bottomsheet': (context) => const MyBottomSheet(),
         '/checkbox': (context) => const MyCheckbox(),
         '/chip': (context) => const MyChip(),
-        '/circularprogressindicator': (context) => const MyCircularProgressIndicator(),
+        '/circularprogressindicator': (context) =>
+            const MyCircularProgressIndicator(),
         '/clipoval': (context) => const MyClipOval(),
         '/clippath': (context) => const MyClipPath(),
         '/cliprect': (context) => const MyClipRect(),
         '/cliprrect': (context) => const MyClipRRect(),
         '/constrainbox': (context) => const MyConstrainBox(),
+        '/customscrollview': (context) => const MyCustomScrollView(),
+        '/decoratedboxtransition': (context) => const MyDecoratedBoxTransition(),
       },
     );
   }

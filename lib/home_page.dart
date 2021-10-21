@@ -120,28 +120,33 @@ class HomePage extends StatelessWidget {
             ),
             ElevatedButton(
               child: const Text('clipoval'),
-              onPressed: () =>
-                  Navigator.pushNamed(context, '/clipoval'),
+              onPressed: () => Navigator.pushNamed(context, '/clipoval'),
             ),
             ElevatedButton(
               child: const Text('clippath'),
-              onPressed: () =>
-                  Navigator.pushNamed(context, '/clippath'),
+              onPressed: () => Navigator.pushNamed(context, '/clippath'),
             ),
             ElevatedButton(
               child: const Text('ClipRect'),
-              onPressed: () =>
-                  Navigator.pushNamed(context, '/cliprect'),
+              onPressed: () => Navigator.pushNamed(context, '/cliprect'),
             ),
             ElevatedButton(
               child: const Text('ClipRRect'),
-              onPressed: () =>
-                  Navigator.pushNamed(context, '/cliprrect'),
+              onPressed: () => Navigator.pushNamed(context, '/cliprrect'),
             ),
             ElevatedButton(
               child: const Text('Constrain Box'),
+              onPressed: () => Navigator.pushNamed(context, '/constrainbox'),
+            ),
+            ElevatedButton(
+              child: const Text('CustomScrollView'),
               onPressed: () =>
-                  Navigator.pushNamed(context, '/constrainbox'),
+                  Navigator.pushNamed(context, '/customscrollview'),
+            ),
+            ElevatedButton(
+              child: const Text('DecoratedBoxTransition'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/decoratedboxtransition'),
             ),
           ],
         ),
