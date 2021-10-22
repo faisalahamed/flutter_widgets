@@ -21,6 +21,10 @@ import 'package:flutter_widets/31.clip_r_rect/my_clip_r_rect.dart';
 import 'package:flutter_widets/32.constrain_box/my_constrain_box.dart';
 import 'package:flutter_widets/33.sliver_and_custom_scrollview/my_customscroll_view.dart';
 import 'package:flutter_widets/34.decorated_box_transition/my_decorated_box_transition.dart';
+import 'package:flutter_widets/35.staggered_animation/staggered_animation.dart';
+import 'package:flutter_widets/36.hide_floatingactionbutton/hide_floating_actionbutton.dart';
+import 'package:flutter_widets/37.hide_bottom_navigation_bar/hide_bottom_navigation_bar.dart';
+import 'package:flutter_widets/38.show_hide_animation/show_hide_animation.dart';
 import 'package:flutter_widets/4.align/my_align.dart';
 
 import '10.animated_list/my_animated_list.dart';
@@ -92,6 +96,10 @@ class MyApp extends StatelessWidget {
         '/constrainbox': (context) => const MyConstrainBox(),
         '/customscrollview': (context) => const MyCustomScrollView(),
         '/decoratedboxtransition': (context) => const MyDecoratedBoxTransition(),
+        '/staggeredanimation': (context) => const MyStaggeredAnimation(),
+        '/HideFloatingButton': (context) => const HideFloatingActionButton(),
+        '/hidebottomnavigation': (context) => const HideBottomNavigationBar(),
+        '/showhideanimation': (context) => const MyShowHideAnimation(),
       },
     );
   }

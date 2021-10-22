@@ -148,6 +148,26 @@ class HomePage extends StatelessWidget {
               onPressed: () =>
                   Navigator.pushNamed(context, '/decoratedboxtransition'),
             ),
+            ElevatedButton(
+              child: const Text('Staggered animation'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/staggeredanimation'),
+            ),
+            ElevatedButton(
+              child: const Text('HideFloatingButton'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/HideFloatingButton'),
+            ),
+            ElevatedButton(
+              child: const Text('HideBottomNavigation'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/hidebottomnavigation'),
+            ),
+            ElevatedButton(
+              child: const Text('showhideanimation'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/showhideanimation'),
+            ),
           ],
         ),
       ),

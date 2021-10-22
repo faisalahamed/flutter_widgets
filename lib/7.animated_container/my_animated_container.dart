@@ -29,10 +29,7 @@ class _MyAnimatedContainerState extends State<MyAnimatedContainer> {
           curve: Curves.easeIn,
           child: GestureDetector(
             onTap: () => change(),
-            child: Align(
-              alignment: Alignment(0.5, 0.5),
-              child: Text('Tap me to resize me!!'),
-            ),
+            child: Text('Tap me to resize me!!'),
           ),
         ),
       ),
