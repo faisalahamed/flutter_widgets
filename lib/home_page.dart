@@ -168,6 +168,49 @@ class HomePage extends StatelessWidget {
               onPressed: () =>
                   Navigator.pushNamed(context, '/showhideanimation'),
             ),
+            ElevatedButton(
+              child: const Text('nestedscrollview2'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/nestedscrollview2'),
+            ),
+            ElevatedButton(
+              child: const Text('MyPageView'),
+              onPressed: () => Navigator.pushNamed(context, '/pageview'),
+            ),
+            ElevatedButton(
+              child: const Text('refreshindicator'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/refreshindicator'),
+            ),
+            ElevatedButton(
+              child: const Text('reorderablelist'),
+              onPressed: () => Navigator.pushNamed(context, '/reorderablelist'),
+            ),
+            ElevatedButton(
+              child: const Text('scrollbar'),
+              onPressed: () => Navigator.pushNamed(context, '/scrollbar'),
+            ),
+            ElevatedButton(
+              child: const Text('mytransform'),
+              onPressed: () => Navigator.pushNamed(context, '/mytransform'),
+            ),
+            ElevatedButton(
+              child: const Text('myrotatedbox'),
+              onPressed: () => Navigator.pushNamed(context, '/myrotatedbox'),
+            ),
+            ElevatedButton(
+              child: const Text('MyOpacity'),
+              onPressed: () => Navigator.pushNamed(context, '/MyOpacity'),
+            ),
+            ElevatedButton(
+              child: const Text('MyCustomPaint'),
+              onPressed: () => Navigator.pushNamed(context, '/MyCustomPaint'),
+            ),
+            ElevatedButton(
+              child: const Text('MyBackDropFilter'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/MyBackDropFilter'),
+            ),
           ],
         ),
       ),

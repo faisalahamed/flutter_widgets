@@ -35,7 +35,6 @@ class _MyShowHideAnimationState extends State<MyShowHideAnimation> {
             );
           }),
       bottomNavigationBar: ScrollToHide(
-
         controller: scrollController,
         child: BottomNavigationBar(
           backgroundColor: Colors.pink,
@@ -110,7 +109,6 @@ class _ScrollToHideState extends State<ScrollToHide> {
     return AnimatedContainer(
       duration: widget.duration,
       height: isVisible ? kBottomNavigationBarHeight : 0,
-      
       child: Wrap(
         children: [
           widget.child,

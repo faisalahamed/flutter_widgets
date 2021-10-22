@@ -25,7 +25,17 @@ import 'package:flutter_widets/35.staggered_animation/staggered_animation.dart';
 import 'package:flutter_widets/36.hide_floatingactionbutton/hide_floating_actionbutton.dart';
 import 'package:flutter_widets/37.hide_bottom_navigation_bar/hide_bottom_navigation_bar.dart';
 import 'package:flutter_widets/38.show_hide_animation/show_hide_animation.dart';
+import 'package:flutter_widets/39.nested_scroll_view_and_Tabview/nested_scroll_view.dart';
 import 'package:flutter_widets/4.align/my_align.dart';
+import 'package:flutter_widets/40.page_view/my_pageview.dart';
+import 'package:flutter_widets/41.refresh_indicator/my_refreshindicator.dart';
+import 'package:flutter_widets/42.reorderabel_listvoew/my_reorderabel_listview.dart';
+import 'package:flutter_widets/42.transform/my_transform.dart';
+import 'package:flutter_widets/43.scrollbar/my_scrollbar.dart';
+import 'package:flutter_widets/45.rotated_box/my_rotated_box.dart';
+import 'package:flutter_widets/46.opacity/myopacity.dart';
+import 'package:flutter_widets/47.custom_paint/my_custom_paint.dart';
+import 'package:flutter_widets/48.backdrop_filter/my_backdrop_filter.dart';
 
 import '10.animated_list/my_animated_list.dart';
 import '11.side_transition/my_side_transition.dart';
@@ -95,11 +105,22 @@ class MyApp extends StatelessWidget {
         '/cliprrect': (context) => const MyClipRRect(),
         '/constrainbox': (context) => const MyConstrainBox(),
         '/customscrollview': (context) => const MyCustomScrollView(),
-        '/decoratedboxtransition': (context) => const MyDecoratedBoxTransition(),
+        '/decoratedboxtransition': (context) =>
+            const MyDecoratedBoxTransition(),
         '/staggeredanimation': (context) => const MyStaggeredAnimation(),
         '/HideFloatingButton': (context) => const HideFloatingActionButton(),
         '/hidebottomnavigation': (context) => const HideBottomNavigationBar(),
         '/showhideanimation': (context) => const MyShowHideAnimation(),
+        '/nestedscrollview2': (context) => const MyNestedScrollView2(),
+        '/pageview': (context) => const MyPageView(),
+        '/refreshindicator': (context) => const MyRefreshIndicator(),
+        '/reorderablelist': (context) => const MyReorderableList(),
+        '/scrollbar': (context) => const MyScrollBar(),
+        '/mytransform': (context) => const MyTransform(),
+        '/myrotatedbox': (context) => const MyRotatedBox(),
+        '/MyOpacity': (context) => const MyOpacity(),
+        '/MyCustomPaint': (context) => const MyCustomPaint(),
+        '/MyBackDropFilter': (context) => const MyBackDropFilter(),
       },
     );
   }
