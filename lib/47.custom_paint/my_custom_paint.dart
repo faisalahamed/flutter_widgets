@@ -7,17 +7,39 @@ class MyCustomPaint extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MyLayout(
+    return MyLayout(
       pageTitle: 'Safe Area',
-      body: SafeArea(
-        bottom: true,
-        left: true,
-        maintainBottomViewPadding: true,
-        minimum: EdgeInsets.all(100.0),
-        right: true,
-        top: true,
-        child: Text('Safe Area'),
+      body: CustomPaint(
+        painter: MyCustomPainter(),
+        size: Size(200, 200),
+        child: Center(
+          child: Container(
+            color: Colors.amber,
+            child: Text('data'),
+          ),
+        ),
       ),
     );
+  }
+}
+
+class MyCustomPainter extends CustomPainter {
+  @override
+  void paint(Canvas canvas, Size size) {
+    // canvas.drawLine(Offset.zero, Offset(100.0, 200.0), Paint());
+    canvas.drawArc(
+        Rect.fromPoints(
+          Offset.zero,
+          Offset(100.0, 300.0),
+        ),
+        12.0,
+        25.0,
+        false,
+        Paint());
+  }
+
+  @override
+  bool shouldRepaint(covariant CustomPainter oldDelegate) {
+    return true;
   }
 }
