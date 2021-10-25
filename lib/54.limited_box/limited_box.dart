@@ -7,11 +7,14 @@ class MyLimitedBox extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MyLayout(
-      pageTitle: 'Safe Area',
-      body: Container(
-        child: Text('Safe Area'),
-      ),
-    );
+    return Scaffold(appBar: AppBar(backgroundColor: Colors.red,title: Text('true'),),primary: false,body: ListView.builder(itemBuilder: (context, index) {
+      return LimitedBox(
+        maxHeight: 150,
+        child: Container(
+          margin: EdgeInsets.all(8),
+          color: Colors.redAccent,
+        ),
+      );
+    }));
   }
 }

@@ -10,7 +10,23 @@ class MyOverflowBox extends StatelessWidget {
     return MyLayout(
       pageTitle: 'Safe Area',
       body: Container(
-        child: Text('Safe Area'),
+        height: 100,
+        width: 100,
+        color: Colors.red,
+        child: Align(
+          alignment: Alignment(1.0, 1.0),
+          child: SizedBox(
+            height: 20,
+            width: 20,
+            child: OverflowBox(
+              maxHeight: 50,
+              maxWidth: 60,
+              child: Container(
+                color: Colors.teal,
+              ),
+            ),
+          ),
+        ),
       ),
     );
   }

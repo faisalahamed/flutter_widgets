@@ -36,6 +36,13 @@ import 'package:flutter_widets/45.rotated_box/my_rotated_box.dart';
 import 'package:flutter_widets/46.opacity/myopacity.dart';
 import 'package:flutter_widets/47.custom_paint/my_custom_paint.dart';
 import 'package:flutter_widets/48.backdrop_filter/my_backdrop_filter.dart';
+import 'package:flutter_widets/49.drawer/my_drawer.dart';
+import 'package:flutter_widets/52.fitted_box/fitted_box.dart';
+import 'package:flutter_widets/53.fractionally_sized_box/fractionally_sized_box.dart';
+import 'package:flutter_widets/54.limited_box/limited_box.dart';
+import 'package:flutter_widets/55.offstage/offstage.dart';
+import 'package:flutter_widets/56.overflow_box/overflow_box.dart';
+import 'package:flutter_widets/87.my_tiles_design/my_tiles_design.dart';
 
 import '10.animated_list/my_animated_list.dart';
 import '11.side_transition/my_side_transition.dart';
@@ -121,6 +128,13 @@ class MyApp extends StatelessWidget {
         '/MyOpacity': (context) => const MyOpacity(),
         '/MyCustomPaint': (context) => const MyCustomPaint(),
         '/MyBackDropFilter': (context) => const MyBackDropFilter(),
+        '/mydrawer': (context) => const MyDrawer(),
+        '/mytilesdesign': (context) => const MyTilesDesign(),
+        '/MyFittedBox': (context) => const MyFittedBox(),
+        '/MyFractionallySizedBox': (context) => const MyFractionallySizedBox(),
+        '/MyLimitedBox': (context) => const MyLimitedBox(),
+        '/MyOffStage': (context) => const MyOffStage(),
+        '/MyOverflowBox': (context) => const MyOverflowBox(),
       },
     );
   }

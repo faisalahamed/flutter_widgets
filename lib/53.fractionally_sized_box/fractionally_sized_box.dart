@@ -8,9 +8,13 @@ class MyFractionallySizedBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MyLayout(
-      pageTitle: 'Safe Area',
-      body: Container(
-        child: Text('Safe Area'),
+      pageTitle: 'Fractionally sized box',
+      body: FractionallySizedBox(
+        heightFactor: 0.7,
+        child: Container(
+          color: Colors.red,
+          child: Text('Rotate to view the change'),
+        ),
       ),
     );
   }

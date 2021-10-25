@@ -211,6 +211,35 @@ class HomePage extends StatelessWidget {
               onPressed: () =>
                   Navigator.pushNamed(context, '/MyBackDropFilter'),
             ),
+            ElevatedButton(
+              child: const Text('MY Drawer'),
+              onPressed: () => Navigator.pushNamed(context, '/mydrawer'),
+            ),
+            ElevatedButton(
+              child: const Text('MY tiles design'),
+              onPressed: () => Navigator.pushNamed(context, '/mytilesdesign'),
+            ),
+            ElevatedButton(
+              child: const Text('MyFittedBox'),
+              onPressed: () => Navigator.pushNamed(context, '/MyFittedBox'),
+            ),
+            ElevatedButton(
+              child: const Text('MyFractionallySizedBox'),
+              onPressed: () =>
+                  Navigator.pushNamed(context, '/MyFractionallySizedBox'),
+            ),
+            ElevatedButton(
+              child: const Text('MyLimitedBox'),
+              onPressed: () => Navigator.pushNamed(context, '/MyLimitedBox'),
+            ),
+            ElevatedButton(
+              child: const Text('MyOffStage'),
+              onPressed: () => Navigator.pushNamed(context, '/MyOffStage'),
+            ),
+            ElevatedButton(
+              child: const Text('MyOverflowBox'),
+              onPressed: () => Navigator.pushNamed(context, '/MyOverflowBox'),
+            ),
           ],
         ),
       ),
