@@ -42,7 +42,10 @@ import 'package:flutter_widets/53.fractionally_sized_box/fractionally_sized_box.
 import 'package:flutter_widets/54.limited_box/limited_box.dart';
 import 'package:flutter_widets/55.offstage/offstage.dart';
 import 'package:flutter_widets/56.overflow_box/overflow_box.dart';
+import 'package:flutter_widets/57.sizedoverflowbox/sizedoverflowbox.dart';
 import 'package:flutter_widets/87.my_tiles_design/my_tiles_design.dart';
+import 'package:flutter_widets/88.tab_view/my_tab_view.dart';
+import 'package:flutter_widets/89.dextar_cd_challenge/dextar_cd_challenge.dart';
 
 import '10.animated_list/my_animated_list.dart';
 import '11.side_transition/my_side_transition.dart';
@@ -135,6 +138,9 @@ class MyApp extends StatelessWidget {
         '/MyLimitedBox': (context) => const MyLimitedBox(),
         '/MyOffStage': (context) => const MyOffStage(),
         '/MyOverflowBox': (context) => const MyOverflowBox(),
+        '/MySizedOverflowBox': (context) => const MySizedOverflowBox(),
+        '/MyTabView': (context) => const MyTabView(),
+        '/DextarCdChallenge': (context) => const DextarCdChallenge(),
       },
     );
   }

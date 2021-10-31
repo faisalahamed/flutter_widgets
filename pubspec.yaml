@@ -61,6 +61,9 @@ flutter:
     - assets/images/cat1.jpeg
     - assets/images/cat2.jpeg
     - assets/images/cat3.jpg
+    - assets/images/dextar/cover.jpg
+    - assets/images/dextar/cd.jpg
+    - assets/images/dextar/cd.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
